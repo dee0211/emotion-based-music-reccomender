@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion-Based Music Recommender</title>
+</head>
+<body>
+    <h1> MOODSYNC Emotion-Based Music Playlist Recommender</h1>
+    <form action="/recommend" method="post">
+        <label for="language">Language:</label>
+        <input type="text" id="language" name="language" required><br><br>
+        <label for="singer">Singer:</label>
+        <input type="text" id="singer" name="singer" required><br><br>
+        <button type="submit">Recommend Songs</button>
+    </form>
+    <h2>Live Video Feed</h2>
+    <img src="/video_feed" width="640" height="480">
+</body>
+</html>
